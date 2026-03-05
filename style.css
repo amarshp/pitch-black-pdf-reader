@@ -1,0 +1,30 @@
+body{
+    margin:0;
+    background:#000000;
+    font-family:Arial;
+}
+
+#toolbar{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:#000;
+    padding:10px;
+    text-align:center;
+}
+
+#viewer{
+    margin-top:60px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.page{
+    position:relative;
+    margin-bottom:40px;
+}
+
+canvas{
+    filter: invert(1) hue-rotate(180deg);
+}
